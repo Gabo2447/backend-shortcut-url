@@ -1,7 +1,7 @@
 import { Router } from "express";
 import type { Router as RouterType } from "express";
 
-import { saveUrl, getUrl } from "@/models/store.js";
+import { saveUrl, getUrl } from "../models/store.js";
 
 const router: RouterType = Router();
 

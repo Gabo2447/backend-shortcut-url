@@ -1,6 +1,6 @@
 import express from "express";
-import shortenRoutes from "@/routes/shorten.js";
-import { PORT } from "@/config.js";
+import shortenRoutes from "./routes/shorten.js";
+import { PORT } from "./config.js";
 import cors from "cors";
 
 const app = express();
